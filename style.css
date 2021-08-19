@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+.separador {
+  margin: 0.5rem 0rem;
+}
+
 h1 {
   color: rgb(133, 14, 91);
   display: block;
