@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+body {
+  width: 70%;
+  display: inline-flexbox;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(133, 14, 91);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+p {
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+}
