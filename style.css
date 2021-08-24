@@ -1,14 +1,13 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+
   padding: 0;
 }
 
 html {
   font-size: 62.5%;
   font-size: 1rem;
-  margin-top: 3rem;
-  padding: 0.5rem;
+
   display: flex;
   justify-content: center;
   background-color: black;
@@ -29,7 +28,6 @@ h1 {
   display: block;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
   text-align: justify;
 }
 
