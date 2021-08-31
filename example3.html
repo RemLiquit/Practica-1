@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Uso de formularios</h1>
+    <form action="GEt">
+      <div>
+        <label for="txtNombre">Introduce tu nombre</label>
+        <input id="txtNombre" type="text" name="nombre" value="Carlos" />
+      </div>
+      <div>
+        <label for="txtApellido">Introduce tu apellido</label>
+        <input id="txtApellido" type="text" name="apellido" />
+      </div>
+      <div>
+        <label for="txtFechaNacimiento">Introduce tu fecha de nacimiento</label>
+        <input id="txtFechaNacimiento" type="date" name="fechaNacimiento" />
+      </div>
+      <div>
+        <label for="txtPassword">Instroducir Password</label>
+        <input id="txtPassword" type="password" name="password" />
+      </div>
+      <div>
+        <label for="">
+          <input name="grupo1" value="Uno" type="radio" />Uno </label
+        ><br />
+        <label for="">
+          <input name="grupo1" value="Dos" type="radio" />Dos
+        </label>
+        <br />
+        <label for="">
+          <input name="grupo1" value="Tres" type="radio" checked />Tres
+        </label>
+        <br />
+      </div>
+      <div>
+        <label for="">
+          <input name="check" type="checkbox" checked /> Haz Click aqui
+        </label>
+      </div>
+      <div>
+        <label for="cmbCiudad">Selecciona la Ciudad</label>
+        <select name="" id="cmbCiudad">
+          <option value="La Paz">Ciudad de La Paz</option>
+          <option value="Santa Cruz">Ciudad de Santa Cruz</option>
+          <option selected value="Cochabamba">Ciudad de Cochabamba</option>
+        </select>
+      </div>
+      <div>
+        <label for="txtDescription">Descripcion</label>
+        <textarea
+          name="txtDescription"
+          id="descripcion"
+          placeholder="Introduce una descripcion"
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Enviar" />
+      </div>
+    </form>
+    <div>
+      <h1>Formulario Reservacion</h1>
+      <form action="GET">
+        <div>
+          <label for="txtNombre">Introduce tu nombre</label>
+          <input
+            id="txtNombre"
+            type="text"
+            name="nombre"
+            value="Carlos"
+            autocomplete=""
+          />
+        </div>
+        <div>
+          <label for="txtApellido">Introduce tu apellido</label>
+          <input id="txtApellido" type="text" name="apellido" />
+        </div>
+        <div>
+          <label for="txtFechaNacimiento">Fecha de la reservacion</label>
+          <input id="txtFechaNacimiento" type="date" name="fechaNacimiento" />
+        </div>
+        <div style="margin-top: 5px">
+          <label for="cmbPais">Seleccione el Destino</label>
+          <select name="" id="cmbPais">
+            <option value="Peru">Peru</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+          </select>
+        </div>
+        <div>
+          <label>
+            <input name="ubicacion" value="Uno" type="radio" />Pasillo
+          </label>
+          <label>
+            <input name="ubicacion" value="Dos" type="radio" />Ventana
+          </label>
+        </div>
+        <div>
+          <label> <input name="check" type="checkbox" /> Confirmar </label>
+        </div>
+        <div>
+          <input type="submit" value="Registrar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
